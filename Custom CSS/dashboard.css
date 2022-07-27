@@ -1,0 +1,99 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
+*{
+    font-family: 'Signika Negative', sans-serif;
+    overflow-x: hidden;
+}
+*::-webkit-scrollbar {
+    display: none;
+}  
+body{
+    background: rgba(0,0,0,0.03);
+}
+/* Custom Navbar CSS */
+nav{
+    background: #ffffff;
+    border-bottom: 2px solid #eb427e;
+}
+.navbar-brand{
+    font-family: 'Cute Font', 'cursive';
+    font-size: 40px;
+    color: #5a4bda;
+}
+.nav-item .nav-link{
+    font-family: 'Cute Font', 'cursive';
+    font-size: x-large;
+    color: #eb427e !important;
+}
+.nav-btn{
+    background: transparent linear-gradient(85deg,#5a4bda 0,#eb427e 100%) 0 0 no-repeat padding-box;
+    color: #ffffff;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: larger;
+    margin-right: 100px;
+    border: none;
+}
+.nav-btn_01{
+    background: transparent linear-gradient(85deg,#5a4bda 0,#eb427e 100%) 0 0 no-repeat padding-box;
+    color: #ffffff;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: larger;
+    margin: 10px;
+    border: none;
+}
+.logo{
+    color: #eb427e;
+    border: none;
+    font-size: xx-large;
+    margin-right: 1rem;
+}
+.subject{
+    color: #eb427d94;
+}
+.sem{
+    text-decoration: none;
+}
+.logo:hover{
+    color: #eb427e;
+    border: none;
+    font-size: xx-large;
+    margin-right: 1rem;
+}
+.calander{
+    background: #ffffff;
+}
+.date ,.color_pink{
+    color: #eb427e;
+}
+/* footer css */
+.landing_5{
+    background: transparent linear-gradient(85deg,#5a4bda 0,#eb427e 100%) 0 0 no-repeat padding-box;;
+}
+.logo_footer{
+    color: white;
+    font-size: 40px;
+    margin-right: 12px;
+}
+.nav-btn:hover, .nav-btn_01:hover{
+    color: white;
+    border: none;
+}
+
+.card{
+    border-radius: 0;
+    border: none;
+
+}
+.name{
+    text-decoration: none !important;
+    font-size: large;
+    
+}
+.alert{
+    background: #eb427e;
+    color: #ffffff;
+    width: 100vw;
+    position: absolute;
+    top: 90px;
+}

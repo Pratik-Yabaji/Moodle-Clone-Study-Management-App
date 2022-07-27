@@ -1,0 +1,37 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
+*{
+    font-family: 'Signika Negative', sans-serif;
+}
+
+img{
+    width: 30vw;
+}
+.features{
+    color: #eb427e;
+    border: none;
+}
+.center{
+    position: relative;
+    top: 14vh;
+    border-radius: 20px;
+}
+.nav-btn{
+    background: transparent linear-gradient(85deg,#5a4bda 0,#eb427e 100%) 0 0 no-repeat padding-box;
+    color: #ffffff;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: larger;
+    border: none;
+}
+.nav-btn:hover{
+    color: white;
+    border: none;
+}
+/* Alert */
+.alert{
+    background: #eb427e;
+    color: #ffffff;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+}

@@ -1,0 +1,97 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
+*{
+    font-family: 'Signika Negative', sans-serif;
+}
+/* Custom Navbar CSS */
+.navbar-brand{
+    font-family: 'Cute Font', 'cursive';
+    font-size: 40px;
+    color: #5a4bda;
+}
+.nav-item .nav-link{
+    font-family: 'Cute Font', 'cursive';
+    font-size: x-large;
+    color: #eb427e !important;
+}
+.nav-btn_1{
+    background: transparent linear-gradient(85deg,#5a4bda 0,#eb427e 100%) 0 0 no-repeat padding-box;
+    color: #ffffff;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: larger;
+    margin-right: 100px;
+    margin-left: 10px;
+    border: none;
+}
+.nav-btn{
+    background: transparent linear-gradient(85deg,#5a4bda 0,#eb427e 100%) 0 0 no-repeat padding-box;
+    color: #ffffff;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: larger;
+    border: none;
+}
+/* Landing CSS */
+.landing{
+    background: rgba(0,0,0,0.03);
+}
+.landing_2{
+    background: rgba(0,0,0,0.03);
+}
+.landing_3{
+    background: #ffffff;
+}
+.landing_4{
+    background: rgba(0,0,0,0.03);
+}
+.landing_5{
+    background:transparent linear-gradient(85deg,#5a4bda 0,#eb427e 100%) 0 0 no-repeat padding-box;
+}
+.landing .container{
+    /* padding-top: 100px; */
+}
+/* Form */
+.landingForm{
+    width: 300px;
+    height: 50px;
+}
+/* Header CSS */
+.landingHeading{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 4em;
+    line-height: 1.2em;
+}
+.features{
+    color: #eb427e;
+    border: none;
+}
+/* SVG CSS  */
+.landingSvg{
+    width: 45vw;
+}
+.landingSvg_1{
+    width: 30vw;
+}
+/* Landing_1 CountDown */
+.landing_1{
+    background:transparent linear-gradient(85deg,#5a4bda 0,#eb427e 100%) 0 0 no-repeat padding-box;
+    color: #ffffff;
+}
+/* footer css */
+.logo{
+    color: white;
+    font-size: 30px;
+    margin-right: 12px;
+}
+.nav-btn:hover{
+    color: white;
+    border: none;
+}
+.alert{
+    background: #eb427e;
+    color: #ffffff;
+    width: 100vw;
+    position: absolute;
+    top: 80px;
+}
+/* Animation CSS */
